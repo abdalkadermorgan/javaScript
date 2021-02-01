@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar {
+    margin: 18px;
+    position: fixed;
+    height: 250px;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    text-align: left;
+    margin: 0;
+    padding: 0 10px 0 10px;
+
+}
+.sidebar ul li {
+    margin: 0;
+    padding: 10px;
+}
+
+.sub-list {
+    width: 360px;
+    height: 250px;
+    position: absolute;
+    top: 0;
+    margin-left: 160px;
+    background-color: rgb(238, 238, 238);
+    display: none;
+    column-fill: auto;
+    column-count: 2;
+    column-rule: 1px solid rgb(158, 158, 158);
+}
+
+
+.sub-list ul li {
+    float: left;
+}
+
+.fas, .fab, .far {
+    padding: 4px;
+    color: #427cff;
+}
+
+.fa-chess-rook {
+    padding-top: 11px;
+    float: left;
+}
+
+.sidebar ul li .item {
+    position: fixed;
+    top: 18px;
+    left: 576px;
+    display: none;
+}
+.item img {
+    width: 500px; 
+    height: 300px;
+}
+
+
+.sidebar .item img,h3,p {
+    position: fixed  ;
+}
+.sidebar .item h3,p{
+    top: 200px;
+    margin: 12px 0 0 33px;
+    color: white;
+    position: relative;
+}
+
+.sidebar ul li:hover {
+    border: 3px solid rgb(62, 209, 209);
+}
+
+.sub-list ul li:hover {
+    border: none;
+}
+
+/*.sub-list ul li:hover .item {
+    display: block;
+}
